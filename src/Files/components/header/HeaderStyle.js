@@ -7,15 +7,28 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 130px;
-`;
 
+  @media (max-width: 650px) {
+    display: none;
+  }
+`;
+export const MobileLogo = styled.div`
+  padding-left: 40px;
+  padding-top: 50px;
+  @media (min-width: 651px) {
+    display: none;
+  }
+`;
 export const TopHeader = styled.div`
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  //   padding: 20px 0;
+  cursor: pointer;
+  @media (max-width: 720px) {
+    width: 90%;
+  }
 `;
 
 export const NavMenu = styled.div`
@@ -54,6 +67,7 @@ export const NavMenu = styled.div`
     letter-spacing: 0.05em;
     color: #242120;
     margin: 0 5px;
+    cursor: pointer;
   }
 `;
 
@@ -77,6 +91,14 @@ export const BottomHeader = styled.div`
       line-height: 15px;
       letter-spacing: 0.05em;
       color: #000000;
+      cursor: pointer;
+    }
+
+    @media (max-width: 950px) {
+      width: 80%;
+    }
+    @media (max-width: 720px) {
+      width: 100%;
     }
   }
 `;
