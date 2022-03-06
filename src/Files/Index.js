@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Header from "./components/header/Header";
 import FirstSection from "./components/first-section/Index";
 import SecondSection from "./components/second-section/Index";
+import ThirdSection from "./components/third-section/ThirdSection";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
     </Container>
   );
 };
