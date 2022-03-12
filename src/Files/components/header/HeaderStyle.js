@@ -11,6 +11,7 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 130px;
+  z-index: 1;
 
   @media (max-width: 650px) {
     display: none;

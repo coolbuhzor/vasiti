@@ -6,6 +6,12 @@ export const InnerContainer = styled.div`
   background: #fff8f5;
   font-family: Inter;
   padding: 100px;
+  @media (max-width: 1252px) {
+    padding: 50px 20px;
+
+    // flex-direction: column;
+    // padding: 10px;
+  }
   @media (max-width: 650px) {
     flex-direction: column;
     padding: 10px;
@@ -70,6 +76,12 @@ export const InnerText = styled.div`
 export const InnerImage = styled.div`
   width: 50%;
   height: 70%;
+  @media (max-width: 1250px) {
+    width: 70%;
+    img {
+      width: 100%;
+    }
+  }
   @media (max-width: 650px) {
     width: 100%;
     img {
