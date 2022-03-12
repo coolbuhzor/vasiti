@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import FirstSection from "./components/first-section/Index";
 import SecondSection from "./components/second-section/Index";
 import ThirdSection from "./components/third-section/ThirdSection";
+import BottomSection from "./components/bottom-section/Index";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <BottomSection />
     </Container>
   );
 };
