@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import Footer from "./Footer";
 import InnerSection from "./InnerSection";
 
 const Index = () => {
   return (
     <Container>
       <InnerSection />
+      <Footer />
     </Container>
   );
 };

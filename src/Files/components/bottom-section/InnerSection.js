@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import phone from "../../../images/img/mobile-phone.png";
 import {
   InputContainer,
