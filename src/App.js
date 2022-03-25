@@ -1,11 +1,13 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import HomePage from "./homepage/Index";
+import HomePage from "./Homepage/Index";
+// import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <HomePage />
+      {/* <Outlet /> */}
       {/* <div className="App"> */}
       {/* <header className="App-header"> */}
       {/* <img src={logo} className="App-logo" alt="logo" />

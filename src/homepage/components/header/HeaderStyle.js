@@ -73,6 +73,19 @@ export const NavMenu = styled.div`
     color: #242120;
     margin: 0 5px;
     cursor: pointer;
+    a {
+      text-decoration: none;
+      // Typography
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #242120;
+      // color: #ffffff;
+    }
   }
 `;
 
