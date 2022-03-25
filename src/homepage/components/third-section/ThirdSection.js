@@ -1,10 +1,6 @@
 import React from "react";
 import { data } from "../FakeData";
-import {
-  Container,
-  FlexDiv,
-  FlexItem,
-} from "../third-section/ThirdSectionStyle";
+import { Container, FlexDiv, FlexItem } from "./ThirdSectionStyle";
 import InnerSection from "./InnerSection";
 
 const ThirdSection = () => {
